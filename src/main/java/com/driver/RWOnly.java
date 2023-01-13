@@ -3,10 +3,10 @@ public class RWOnly {
     private String name;
 
 
-    public void writeOnly(String name) {
+    public void setName(String name) {
         this.name = name;
     }
-    public String readOnly() {
+    public String getName() {
         return name;
     }
 
