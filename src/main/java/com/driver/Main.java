@@ -7,7 +7,7 @@ public class Main {
 //        System.out.println(rw.name);
         //Error get -> make a name in RWOnly is public or protected or remove a private modifier
 
-        rw.setName("Rushikesh");
-        System.out.println(rw.getName());
+        rw.writeOnly("Rushikesh");
+        System.out.println(rw.readOnly());
     }
 }
